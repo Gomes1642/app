@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>CheckBox</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-item>
+  <ion-label>Default</ion-label>
+  <ion-checkbox></ion-checkbox>
+</ion-item>
+<ion-item>
+    <ion-label>Disabled</ion-label>
+    <ion-checkbox disabled= 'True'> </ion-checkbox>
+  </ion-item>
+  <ion-item>
+      <ion-label>Checked</ion-label>
+      <ion-checkbox checked= 'True'> </ion-checkbox>
+    </ion-item>
+  <ion-item>
+      <ion-label>Disabled + Checked</ion-label>
+      <ion-checkbox disabled= 'True' checked='True'> </ion-checkbox>
+    </ion-item>
+    <ion-item>
+        <ion-label>Tema</ion-label>
+        <ion-checkbox color= 'danger' checked='True'> </ion-checkbox>
+      </ion-item>
+
+      <ion-button expand= "block" (click)= "Imprimir()"> Imprimir </ion-button>
+</ion-content>
